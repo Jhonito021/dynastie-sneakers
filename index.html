@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Dynastie Sneakers | Commander vos sneakers</title>
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="navbar">
+        <div class="logo">
+            <i class="fas fa-crown"></i>
+            <h1>DYNASTIE SNEAKERS</h1>
+            <p><i class="fas fa-fire-flame"></i> L'élite de la sneaker</p>
+        </div>
+        <nav class="nav-links">
+            <a href="#accueil" class="nav-link active" data-section="accueil">
+                <i class="fas fa-home"></i> Accueil
+            </a>
+            <a href="#produits" class="nav-link" data-section="produits">
+                <i class="fas fa-shoe-prints"></i> Produits
+            </a>
+            <a href="#info" class="nav-link" data-section="info">
+                <i class="fas fa-info-circle"></i> Info
+            </a>
+            <a href="#contact" class="nav-link" data-section="contact">
+                <i class="fas fa-envelope"></i> Contact
+            </a>
+        </nav>
+        <div class="cart-icon" id="cartIcon">
+            <i class="fas fa-shopping-bag"></i>
+            <span class="cart-count" id="cartCount">0</span>
+        </div>
+    </header>
+
+    <!-- SECTION ACCUEIL (HERO) -->
+    <section id="accueil" class="section active-section">
+        <div class="hero">
+            <div class="hero-content">
+                <i class="fas fa-star-of-life"></i>
+                <h2>Édition limitée</h2>
+                <p>Des sneakers iconiques, design audacieux, confort absolu.</p>
+                <button class="cta-btn" id="shopNowBtn">
+                    <i class="fas fa-arrow-right"></i> Découvrir la collection
+                </button>
+            </div>
+        </div>
+
+        <!-- Valeurs / Features -->
+        <div class="features">
+            <div class="feature-card">
+                <i class="fas fa-truck-fast"></i>
+                <h3>Livraison rapide</h3>
+                <p>Partout à Madagascar sous 48h</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Authentique garanti</h3>
+                <p>100% original</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-rotate-left"></i>
+                <h3>Retour gratuit</h3>
+                <p>Satisfait ou remboursé</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION PRODUITS (CATALOGUE) -->
+    <section id="produits" class="section">
+        <main class="container">
+            <h2 class="section-title">
+                <i class="fas fa-shoe-prints"></i> Nos modèles phares
+            </h2>
+            <div class="products-grid" id="productsGrid"></div>
+        </main>
+    </section>
+
+    <!-- SECTION INFO (À PROPOS) -->
+    <section id="info" class="section">
+        <div class="container info-container">
+            <h2 class="section-title"><i class="fas fa-flag-checkered"></i> Qui sommes-nous ?</h2>
+            <div class="info-content">
+                <div class="info-text">
+                    <p><strong>Dynastie Sneakers</strong> est la référence malgache en matière de sneakers premium. Fondée en 2024, notre mission est de rendre accessible les plus belles chaussures de sport à toute l'île.</p>
+                    <br>
+                    <p><i class="fas fa-check-circle"></i> Plus de 5000 clients satisfaits</p>
+                    <p><i class="fas fa-check-circle"></i> Livraison à Antananarivo, Toamasina, Mahajanga, Fianarantsoa, Antsiranana</p>
+                    <p><i class="fas fa-check-circle"></i> Paiement sécurisé en ligne et à la livraison</p>
+                    <br>
+                    <div class="stats">
+                        <div class="stat">
+                            <span class="stat-number">6+</span>
+                            <span class="stat-label">Collections exclusives</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Authentique</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">48h</span>
+                            <span class="stat-label">Livraison express</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="info-image">
+                    <i class="fas fa-store"></i>
+                    <p>Boutique officielle en ligne</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION CONTACT -->
+    <section id="contact" class="section">
+        <div class="container contact-container">
+            <h2 class="section-title"><i class="fas fa-headset"></i> Contactez-nous</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Adresse</h3>
+                        <p>Lot II J 121 Bis, Ambohijatovo<br>Antananarivo 101 - Madagascar</p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-phone-alt"></i>
+                        <h3>Téléphone</h3>
+                        <p>+261 34 12 345 67<br>+261 38 98 765 43</p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-envelope-open-text"></i>
+                        <h3>Email</h3>
+                        <p>contact@dynastiesneakers.mg<br>service@dynastiesneakers.mg</p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-clock"></i>
+                        <h3>Horaires</h3>
+                        <p>Lundi - Samedi : 9h - 18h<br>Dimanche : Fermé</p>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3><i class="fas fa-paper-plane"></i> Envoyez-nous un message</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="contactName" placeholder="Votre nom complet" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="contactEmail" placeholder="Votre adresse email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="contactSubject" placeholder="Sujet">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="contactMessage" rows="5" placeholder="Votre message..." required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <i class="fas fa-paper-plane"></i> Envoyer
+                        </button>
+                    </form>
+                    <div id="formMessage" class="form-feedback"></div>
+                </div>
+            </div>
+            
+            <!-- Réseaux sociaux -->
+            <div class="social-links">
+                <h3><i class="fas fa-share-alt"></i> Suivez-nous</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Panier latéral -->
+    <div class="cart-overlay" id="cartOverlay">
+        <div class="cart-header">
+            <h2><i class="fas fa-bag-shopping"></i> Mon panier</h2>
+            <button class="close-cart" id="closeCartBtn">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="cart-items" id="cartItemsList">
+            <div class="empty-cart-msg">
+                <i class="fas fa-shopping-cart"></i>
+                Votre panier est vide.
+            </div>
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <i class="fas fa-tag"></i> Total : <span id="cartTotalPrice">0</span> Ar
+            </div>
+            <button class="checkout-btn" id="checkoutBtn">
+                <i class="fas fa-credit-card"></i> Passer commande
+            </button>
+        </div>
+    </div>
+
+    <!-- Overlay de fond sombre -->
+    <div class="body-overlay" id="bodyOverlay"></div>
+
+    <!-- Notification toast -->
+    <div id="toastNotification" class="toast">
+        <i class="fas fa-check-circle"></i> <span id="toastMessage">✨ Article ajouté au panier</span>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Dynastie Sneakers - Tous droits réservés - Madagascar</p>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
