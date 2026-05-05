@@ -94,7 +94,20 @@ body {
 }
 
 /* ========== SECTIONS ========== */
-.section { display: none; }
+.fond {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.section { 
+    display: none;
+    position: relative; 
+}
 .section.active-section { display: block; }
 
 /* ========== HERO ========== */
@@ -235,7 +248,16 @@ body {
     background: #293431;
     border-radius: 20px;
     padding: 2rem;
+    height: 400px;
+    width: 200px;
 }
+
+.info-image video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
 .info-image i { font-size: 4rem; color: #45AA96; margin-bottom: 1rem; }
 
 .payment-methods {
@@ -439,4 +461,5 @@ body {
     .nav-links { justify-content: center; }
     .hero-content h2 { font-size: 1.8rem; }
     .section-title { font-size: 1.5rem; }
+    .info-image {display: none;}
 }
