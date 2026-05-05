@@ -6,10 +6,11 @@ const products = [
     { id: 4, name: "Jordan 1", price: 65000, image: "assets/img/jord1.jpg" },
     { id: 5, name: "Jordan 4", price: 75000, image: "assets/img/jord4.jpg" },
     { id: 6, name: "New Balance", price: 60000, image: "assets/img/nb.jpg" },
-    { id: 6, name: "Nike Zoom", price: 80000, image: "assets/img/nikezoom.jpg" },
-    { id: 6, name: "Puma Speedcat", price: 70000, image: "assets/img/pumaspeedcat.jpg" },
-    { id: 6, name: "Nike TN", price: 65000, image: "assets/img/tn.jpg" },
-    { id: 6, name: "Vans", price: 60000, image: "assets/img/vans.jpg" },
+    { id: 7, name: "Nike Zoom", price: 80000, image: "assets/img/nikezoom.jpg" },
+    { id: 8, name: "Puma Speedcat", price: 70000, image: "assets/img/pumaspeedcat.jpg" },
+    { id: 9, name: "Nike TN", price: 65000, image: "assets/img/tn.jpg" },
+    { id: 10, name: "Vans", price: 60000, image: "assets/img/vans.jpg" },
+    { id: 11, name: "Air Force", price: 75000, image: "assets/img/airforce.jpg" }
 ];
 
 let cart = [];
